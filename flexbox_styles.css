@@ -3,10 +3,44 @@ TODO: Add styles to match the layout in the image.
 Note: you should only need to use flexbox properties and margin/padding to create the layout.
 */
 
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.card {
+  text-align: center;
+  margin: 0 1rem;
+}
 
+header {
+  display: flex;
+  margin: 0 1rem;
+  padding: 1rem;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+}
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
-
-
