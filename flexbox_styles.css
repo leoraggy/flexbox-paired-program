@@ -40,7 +40,9 @@ header {
 .social-links {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
+
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
 */
